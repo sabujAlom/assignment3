@@ -28,7 +28,7 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                clifford: '#FF4240',
               }
             }
           }
@@ -40,11 +40,64 @@
        .font-manrope{
         font-family: 'Manrope', sans-serif;
        }
+      
     </style>
 
   </head>
+
   <body class="font-manrope">
-    <header></header>
+    <header>
+      <!-- navbar area.. -->
+     <div class="container mx-auto lg:px-24 px-8">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn lg:hidden btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class=" absolute mx-8">
+          <a class="btn btn-ghost text-2xl">Hockey<span class="text-red-400">'</span>s</a>
+        </div>
+        <div class="">
+          <ul class="hidden lg:flex justify-between lg:space-x-8 lg:cursor-pointer ">
+            <li class="text-red-500"><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+
+          <div class="dropdown dropdown-end">
+            <label tabindex="0" class=" m-1"> <button class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button></label>
+            <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+              <li><input type="search" placeholder="search"></li>
+              
+            </ul>
+          </div>
+
+         
+          <button class="btn bg-[#FF4240] text-white">Get Ticket</button>
+        </div>
+      </div>
+     </div>
+      <!-- banner area -->
+      <div class="container mx-auto lg:px-24 px-8">
+
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
